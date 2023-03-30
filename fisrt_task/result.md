@@ -8,7 +8,7 @@ https://github.com/hadunik/bioinformatics/blob/2325806c46ad7b92145cee4d601c5bdca
 
 ### Mathcer
 
-https://github.com/hadunik/bioinformatics/blob/2325806c46ad7b92145cee4d601c5bdcad6da803/fisrt_task/results/matcher_MC1R.txt#L22-33
+https://github.com/hadunik/bioinformatics/blob/714220b806c97f0a1ac49296a61b8a3e67903228/fisrt_task/results/matcher_MC1R.txt#L22-L33
 
 ## Result
 
