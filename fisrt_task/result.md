@@ -12,7 +12,7 @@ https://github.com/hadunik/bioinformatics/blob/714220b806c97f0a1ac49296a61b8a3e6
 
 ## Result
 
-*** как можно заметить, но у Mathcer score = 3706, а у Stretcher score = -1631, поэтому я считаю, что лучше справился с выравниванием Matcher, даже видно что gaps у него всего 5.6%, в то время как у Stretcher целых 43.4% ***
+***как можно заметить, но у Mathcer score = 3706, а у Stretcher score = -1631, поэтому я считаю, что лучше справился с выравниванием Matcher, даже видно что gaps у него всего 5.6%, в то время как у Stretcher целых 43.4%***
 
 ## OCA2
 
