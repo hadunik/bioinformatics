@@ -4,11 +4,11 @@
 
 ### Stretcher
 
-https://github.com/hadunik/bioinformatics/blob/main/fisrt_task/results/stretcher_MC1R.txt#L22-L33
+https://github.com/hadunik/bioinformatics/blob/2325806c46ad7b92145cee4d601c5bdcad6da803/fisrt_task/results/stretcher_MC1R.txt#L21-L32
 
 ### Mathcer
 
-https://github.com/hadunik/bioinformatics/blob/main/fisrt_task/results/matcher_MC1R.txt#L22-L33
+https://github.com/hadunik/bioinformatics/blob/2325806c46ad7b92145cee4d601c5bdcad6da803/fisrt_task/results/matcher_MC1R.txt#L22-33
 
 ## Result
 
@@ -18,11 +18,11 @@ https://github.com/hadunik/bioinformatics/blob/main/fisrt_task/results/matcher_M
 
 ### Stretcher
 
-https://github.com/hadunik/bioinformatics/blob/main/fisrt_task/results/stretcher_OCA2.txt
+https://github.com/hadunik/bioinformatics/blob/2325806c46ad7b92145cee4d601c5bdcad6da803/fisrt_task/results/stretcher_OCA2.txt#L21-L32
 
 ### Mathcer
 
-https://github.com/hadunik/bioinformatics/blob/main/fisrt_task/results/matcher_OCA2.txt
+https://github.com/hadunik/bioinformatics/blob/2325806c46ad7b92145cee4d601c5bdcad6da803/fisrt_task/results/matcher_OCA2.txt#L22-L33
 
 ## Result
 
