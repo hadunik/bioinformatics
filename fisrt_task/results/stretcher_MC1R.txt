@@ -1,0 +1,335 @@
+########################################
+# Program: stretcher
+# Rundate: Thu 30 Mar 2023 10:14:03
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20230330-101402-0519-12485537-p2m.aupfile
+#    -bsequence emboss_stretcher-I20230330-101402-0519-12485537-p2m.bupfile
+#    -datafile EDNAFULL
+#    -gapopen 16
+#    -gapextend 4
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 89918862-89920972
+# 2: 124133821-124137483
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 3686
+# Identity:    1617/3686 (43.9%)
+# Similarity:  1617/3686 (43.9%)
+# Gaps:        1598/3686 (43.4%)
+# Score: -1631
+# 
+#
+#=======================================
+
+89918862-8992      1 A------------TTCTTC-CCAG-GACC--TCAGCGCAGCCCTGGCCCA     34
+                     .            |||||| |||| |.||  ||..|.|.|.|.||||...
+124133821-124      1 GAGAAAAGCTCCCTTCTTCTCCAGAGTCCCGTCTACCCTGGCTTGGCGAG     50
+
+89918862-8992     35 GGAA-GGCAGGAGACA-------GAGGCCAGGACG------GTCCAGAGG     70
+                     |||| ||.|..|||||       |||||.||.|..      |||..||||
+124133821-124     51 GGAAAGGAACCAGACATATATCAGAGGCAAGTAACCAAGAAGTCTGGAGG    100
+
+89918862-8992     71 TGTCGAAATGTCCTGGGGACCTGAGCAGC--AGCCACCAGGGAAGAGGCA    118
+                     |||.||..|    |.||.|..|....|.|  ||||||..||||||||.||
+124133821-124    101 TGTTGAGTT----TAGGCATGTCTCTACCTGAGCCACTTGGGAAGAGACA    146
+
+89918862-8992    119 GGGAGGG-AGCTGAGGACCAGGCT---------TGGTTGTGAGAATCCCT    158
+                     |||||.. |||.||.|.|.|.|||         |||..||||||.|||.|
+124133821-124    147 GGGAGAACAGCAGAAGGCTAAGCTACTTCACACTGGCAGTGAGAGTCCAT    196
+
+89918862-8992    159 GAGCCCAGGCGGTAGATGCCAGGAGGTGTCTGGACTGGCTGGGCCATGCC    208
+                     ||||..||......|....|||.|||.      |.||.||..||||||||
+124133821-124    197 GAGCAGAGCTCAGGGTCCTCAGCAGGA------AGTGTCTATGCCATGCC    240
+
+89918862-8992    209 TGGGCTGACCTGTCCAGCCAGGGAGAGG----GTGTGAGGGCAGATCTGG    254
+                     ..|||||.|||||||||||||..|||..    ||||.|.||.|.|||.|.
+124133821-124    241 GAGGCTGGCCTGTCCAGCCAGAAAGAACACAAGTGTAAAGGAAAATCGGA    290
+
+89918862-8992    255 GGGTGCCCAGATGGAAGGAGGCAGGCATGGGGGACACCCAAGGCCCCCTG    304
+                     |.|||||...||||||.|||||.||..||.||||...|..||.||||| |
+124133821-124    291 GCGTGCCTGTATGGAAAGAGGCCGGTCTGAGGGATGTCAGAGACCCCC-G    339
+
+89918862-8992    305 GCAGCACCATGAACT-AAGCAGGACACCTGGAGGGGAAGA-ACTGTGGGG    352
+                     .||.||.||||||.| ||.|||.|  .|||  ||||..|| ||.....||
+124133821-124    340 ACAACAACATGAAGTGAATCAGAA--GCTG--GGGGCTGATACCACCTGG    385
+
+89918862-8992    353 ACCTGGAGGCCTCCAACGACTCCTTCCTGCTTCCTGGACAGGACTATGGC    402
+                     |.|||.|| ||||||..|||..||||||.||||||| |||.|||||||.|
+124133821-124    386 AGCTGCAG-CCTCCACAGACCGCTTCCTACTTCCTG-ACAAGACTATGTC    433
+
+89918862-8992    403 TGTGCAGGGATCCCAGAGAAGACTTCTGGGCTCCCTCAACTCCACCCCCA    452
+                     ....||||...||||||..||.||||||||.||.||||||||||      
+124133821-124    434 CACTCAGGAGCCCCAGAAGAGTCTTCTGGGTTCTCTCAACTCCA------    477
+
+89918862-8992    453 CAGCCATCCCCCAGCTGGGGCTGGCTGCCAACCAGACAGGAGCCCGGTGC    502
+                     ..||||.|.|.||.||.||.|||||..||||||||.|||...|..|||||
+124133821-124    478 ATGCCACCTCTCACCTTGGACTGGCCACCAACCAGTCAGAGCCTTGGTGC    527
+
+89918862-8992    503 CTGGAGGTGTCCATCTCTGACGGGCTCTTCCTCAGCCTGGGGCTGGTGAG    552
+                     |||.|.|||||||||.|.||.||.||||||||||||||.|||||||||||
+124133821-124    528 CTGTATGTGTCCATCCCAGATGGCCTCTTCCTCAGCCTAGGGCTGGTGAG    577
+
+89918862-8992    553 CTTGGTGGAGAACGCGCTGGTGGTGGCCACCATCGCCAAGAACCGGAACC    602
+                     ..||||||||||.|.||||||.|||....|||||.||||.|||||.||||
+124133821-124    578 TCTGGTGGAGAATGTGCTGGTTGTGATAGCCATCACCAAAAACCGCAACC    627
+
+89918862-8992    603 TGCACTCACCCATGTACTGCTTCATCTGCTGCCTGGCCTTGTCGGACCTG    652
+                     |||||||.||||||||.|.|||||||||||||||||||.||||.||||||
+124133821-124    628 TGCACTCGCCCATGTATTACTTCATCTGCTGCCTGGCCCTGTCTGACCTG    677
+
+89918862-8992    653 CTGGTGAGCGGGAGCAACGTGCTGGAGACGGCCGTCATCCTCCTGCTGGA    702
+                     .||||.||.|..||||.||||||||||||..|..|||||||.||||||||
+124133821-124    678 ATGGTAAGTGTCAGCATCGTGCTGGAGACTACTATCATCCTGCTGCTGGA    727
+
+89918862-8992    703 GGCCGGTGCACTGGTGGCCCGGGCTGCGGTGCTGCAGCAGCTGGACAATG    752
+                     |||.||....|||||||||.|.|..||..||.||||||||||||||||..
+124133821-124    728 GGCGGGCATCCTGGTGGCCAGAGTGGCTTTGGTGCAGCAGCTGGACAACC    777
+
+89918862-8992    753 TCATTGACGTGATCACCTGCAGCTCCATGCTGTCCAGCCTCTGCTTCCTG    802
+                     |||||||||||.|||.|||..||||||||.|||||||.||||||||||||
+124133821-124    778 TCATTGACGTGCTCATCTGTGGCTCCATGGTGTCCAGTCTCTGCTTCCTG    827
+
+89918862-8992    803 GGCGCCATCGCCGTGGACCGCTACATCTCCATCTTCTACGCACTGCGCTA    852
+                     |||..|||.||..|.|||||||||||||||||||||||.||.|||||.||
+124133821-124    828 GGCATCATTGCTATAGACCGCTACATCTCCATCTTCTATGCGCTGCGTTA    877
+
+89918862-8992    853 CCACAGCATCGTGACCCTGCCGCGGGCGCGGCGAGCCGTTGCGGCCATCT    902
+                     .||||||||||||||.|||||..|.||.||.||.||.||.|.||.|||||
+124133821-124    878 TCACAGCATCGTGACGCTGCCCAGAGCACGACGGGCTGTCGTGGGCATCT    927
+
+89918862-8992    903 GGGTGGCCAGTGTCGTCTTCAGCACGCTCTTCATCGCCTACTACGACCAC    952
+                     ||.|||.|||..||||||.||||||.|||||.|||.||||||||.|.|||
+124133821-124    928 GGATGGTCAGCATCGTCTCCAGCACCCTCTTTATCACCTACTACAAGCAC    977
+
+89918862-8992    953 GTGGCCGTCCTGCTGTGCCTCGTGGTCTTCTTCCTGGCTATGCTGGTGCT   1002
+                     ...|||||.|||||.||||||||....|||||.||.||.|||||||..||
+124133821-124    978 ACAGCCGTTCTGCTCTGCCTCGTCACTTTCTTTCTAGCCATGCTGGCACT   1027
+
+89918862-8992   1003 CATGGCCGTGCTGTACGTCCACATGCTGGCCCGGGCCTGCCAGCACGCCC   1052
+                     ||||||..|.|||||.|.|||||||.|..|..|.||.|||||||||||.|
+124133821-124   1028 CATGGCGATTCTGTATGCCCACATGTTCACGAGAGCGTGCCAGCACGCTC   1077
+
+89918862-8992   1053 AGGGCATCGCCCGGCTCCACAAGAGGCAGCGCCCGGTCCACCAGGGCTTT   1102
+                     |||||||.||||.|||||||||.||||.|||..|..|||.|||.|||||.
+124133821-124   1078 AGGGCATTGCCCAGCTCCACAAAAGGCGGCGGTCCATCCGCCAAGGCTTC   1127
+
+89918862-8992   1103 GGCCTTAAAGGCGCTGTCACCCTCACCATCCTGCTGGGCATTTTCTTCCT   1152
+                     .||||.||.||.||||.||||||.||.|||||.|||||.|||||||||||
+124133821-124   1128 TGCCTCAAGGGTGCTGCCACCCTTACTATCCTTCTGGGGATTTTCTTCCT   1177
+
+89918862-8992   1153 CTGCTGGGGCCCCTTCTTCCTGCATCTCACACTCATCGTCCTCTGCCCCG   1202
+                     .|||||||||||||||||||||||||||...|||||||||||||||||..
+124133821-124   1178 GTGCTGGGGCCCCTTCTTCCTGCATCTCTTGCTCATCGTCCTCTGCCCTC   1227
+
+89918862-8992   1203 AGCACCCCACGTGCGGCTGCATCTTCAAGAACTTCAACCTCTTTCTCGCC   1252
+                     ||||||||||.|||.||||||||||||||||||||||||||||.|||..|
+124133821-124   1228 AGCACCCCACCTGCAGCTGCATCTTCAAGAACTTCAACCTCTTCCTCCTC   1277
+
+89918862-8992   1253 CTCATCATCTGCAATGCCATCATCGACCCCCTCATCTACGCCTTCCACAG   1302
+                     ||||||.||..||...|||...|.||||||||||||||.||.||||.|||
+124133821-124   1278 CTCATCGTCCTCAGCTCCACTGTTGACCCCCTCATCTATGCTTTCCGCAG   1327
+
+89918862-8992   1303 CCAGGAGCTCCGCAGGACGCTCAAGGAGGTGCTGACATGCTCCTGGTGA-   1351
+                     ||||||||||||||.|||.|||||||||||||||...|||||||||||| 
+124133821-124   1328 CCAGGAGCTCCGCATGACACTCAAGGAGGTGCTGCTGTGCTCCTGGTGAT   1377
+
+89918862-8992   1352 ------GCGC---------GGTG---------------------------   1359
+                           ||||         ||||                           
+124133821-124   1378 CAGAGGGCGCTGGGCAGAGGGTGACAGTGATATCCAGTGGCCTGCATCCT   1427
+
+89918862-8992   1360 -------CACGCG-------------------------------------   1365
+                            |||..|                                     
+124133821-124   1428 GTGAGACCACAGGTACTCATCCCTTCCTGATCTCCATTTGTCTAAGGGTC   1477
+
+89918862-8992   1366 ----------GCTTTAA--------------GTG----------------   1375
+                               |||||||              |||                
+124133821-124   1478 GACAGGATGAGCTTTAAAATAGAAACCCAGAGTGCCTGGGGCCAGGAGAA   1527
+
+89918862-8992   1376 --------------TGCTGGGCAGA--------------GGGAGGTGGTG   1397
+                                   |||.||||..|              ||||.||||.|
+124133821-124   1528 AGGGTAACTGTGACTGCAGGGCTCACCCAGGGCAGCTACGGGAAGTGGAG   1577
+
+89918862-8992   1398 -ATATTGTG-TGG----TCT-------------------------GGTTC   1416
+                      |.|..|.| |||    |||                         ||.||
+124133821-124   1578 GAGACAGGGATGGGAACTCTAGCCCTGAGCAAGGGTCAGACCACAGGCTC   1627
+
+89918862-8992   1417 CTG------------------------------------TG---------   1421
+                     |||                                    ||         
+124133821-124   1628 CTGAAGAGCTTCACCTCTCCCCACCTACAAGGCAACTCCTGCTCAGCCCT   1677
+
+89918862-8992   1422 ---------TGACCCTGGGC------------------------------   1432
+                              |.|.|||||||                              
+124133821-124   1678 TCAGCTCATTCAGCCTGGGCTCTCCTGCTGGGACAGACATGAAGTCTCTA   1727
+
+89918862-8992   1433 AGTT---------------------------------------CCTTACC   1443
+                     ||||                                       |.|||..
+124133821-124   1728 AGTTAAAAGAATGACAGACAAGCCGGGCGGTGGTGGCGCATGCCTTTAAT   1777
+
+89918862-8992   1444 TCC-----------------------------------------------   1446
+                     |||                                               
+124133821-124   1778 TCCAGCACTTGGGAGGCAGAGGCAGGTGGATTTCTGAGTTCGAGGCCAGC   1827
+
+89918862-8992   1447 CTGGTC-------------------------------------------C   1453
+                     ||||||                                           |
+124133821-124   1828 CTGGTCTTCAGAGTGAGTTCCAGTGACGGCCAGGGCTATACAGAGAAACC   1877
+
+89918862-8992   1454 CCGTTT---------------------------------------GTCAA   1464
+                     |.||.|                                       |.|||
+124133821-124   1878 CTGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATGACAA   1927
+
+89918862-8992   1465 AGAGGAT-------GGACTAAATGATCT------------CTGA-AAG--   1492
+                     |.|.||.       |||..||.|..|||            |||| |||  
+124133821-124   1928 ACAAGAGCTAAGGGGGAGCAACTACTCTTGGTGGAAGCTTCTGATAAGAG   1977
+
+89918862-8992   1493 ----TGT-----TGAA------GC----GCG-------------------   1504
+                         |||     ||||      ||    ||.                   
+124133821-124   1978 GATTTGTGGCCATGAAAACCCAGCCATAGCCATGCAGTAGGCAGCTTAAG   2027
+
+89918862-8992   1505 -------GACCCTTC---------TGG----------------GTCCAG-   1521
+                            ||||||||         |||                ||.||. 
+124133821-124   2028 GAAGTGAGACCCTTCCTCAGCACATGGAGCAGAATTGTAGAATGTGCATC   2077
+
+89918862-8992   1522 -----GGAGGGGTC--CC----TGCAAAA---------------------   1539
+                          |||||||.|  ||    ||||.||                     
+124133821-124   2078 TTGCAGGAGGGGCCTACCCATTTGCACAAGCGGTGTGGGACTGACCTAAA   2127
+
+89918862-8992   1540 -----CTCCAGG------CAGGA-------------CTTCTCAC--CAGC   1563
+                          ||||.||      ||.||             ||.|||||  ||||
+124133821-124   2128 AATGGCTCCTGGGAATCCCAAGAGGTGGGCACCCAACTGCTCACACCAGC   2177
+
+89918862-8992   1564 AGTC----------------------------------------------   1567
+                     ||.|                                              
+124133821-124   2178 AGGCTACTCTGTCAAGTGCCTCCTCCACCAGCTGCAGGGGAGGCTGTTGG   2227
+
+89918862-8992   1568 ----------------------GTGG------------------------   1571
+                                           ||||                        
+124133821-124   2228 CTTATCACTGACCACAGCCTGTGTGGCTCTGAGCCAGGAAGCAGTTGAAA   2277
+
+89918862-8992   1572 -------------GGAACGGAG----------------------------   1580
+                                  ||.|.||||                            
+124133821-124   2278 TGCTAAGGTCAGAGGGAGGGAGCCTCCTTGCCATCTTCCCTAGCTCTCTC   2327
+
+89918862-8992   1581 -------------------------GAGGACATGGGGAG-----------   1594
+                                              |||||||.||.|||           
+124133821-124   2328 CAGAAGCTGAGTGAAGTTTGGGTGAGAGGACAGGGAGAGTGGTCACATTA   2377
+
+89918862-8992   1595 --GTTGTGGG-GCCTCAG------------GCTCCGGGC-----------   1618
+                       |...|||| |.|||||            |||.|..||           
+124133821-124   2378 GGGAGATGGGAGTCTCAGAAGCCACAGCTAGCTGCCTGCCTGATTTAGGA   2427
+
+89918862-8992   1619 -ACCAGGGGCC-------------------------AACCTCAG------   1636
+                      ||||.||.||                         |||.||||      
+124133821-124   2428 AACCACGGTCCCGTCTTGGCTTCCTCTATGACTACAAACTTCAGATCAGA   2477
+
+89918862-8992   1637 ----GCTCCTAAAGAGACATTTTCCGC---CCACTCCTGGGACA------   1673
+                         ||..|...|||.|.|.|||||.|   ||.||...|.||||      
+124133821-124   2478 GCAAGCAGCGGCAGAAAAAGTTTCCTCGTGCCTCTATGGTGACAAGAATC   2527
+
+89918862-8992   1674 ------------CTCCGTCTGCT----CCAATGACTG-AGCAG-------   1699
+                                 ||||.||||.|    |||...|||| |||||       
+124133821-124   2528 CCTTTGTTCAGGCTCCTTCTGGTTCATCCATACACTGTAGCAGGACCGTA   2577
+
+89918862-8992   1700 -CATC---------------------------------------------   1703
+                      ||||                                             
+124133821-124   2578 GCATCTCAGCCCCTGATATGACACATCCGTAACCTTGGCCAGAGCCTGTC   2627
+
+89918862-8992   1704 -------------CACCCCACCCC--ATCT-------TTGCTGCC-----   1726
+                                  |||||||||||  ||.|       ||.|..||     
+124133821-124   2628 CCTTTCCTGCCCCCACCCCACCCCCCATGTGTAGGACTTTCAACCTACTT   2677
+
+89918862-8992   1727 --AGCTCTC---AGGACC------GTG------CCCT--------CGTCA   1751
+                       |||||||   ||.|.|      |||      ||||        |||..
+124133821-124   2678 TGAGCTCTCCTGAGAAGCCCAGGGGTGGAGAGTCCCTGAGGCACACGTAG   2727
+
+89918862-8992   1752 GCTGG-----------GATGTGAAGTCT----------------------   1768
+                     |.|||           |...|||.||||                      
+124133821-124   2728 GGTGGACCAGGACCAGGGGCTGAGGTCTGTTTCTATGGGACACTGCCCTT   2777
+
+89918862-8992   1769 CTGGGTGGAAGTGTG----------TGC----------------------   1786
+                     |||||.|||.|||.|          |||                      
+124133821-124   2778 CTGGGAGGAGGTGGGGTGGTCTCAGTGCTCTGTCAGATTTGGGAATTAGA   2827
+
+89918862-8992   1787 CAAGAGCT---ACTCCCACAGCAGCCCCAGGAGA--AGGGGCTTTG-TGA   1830
+                     |||||.||   |..|..|....||.|||||||||  ||...||..| |||
+124133821-124   2828 CAAGACCTTTCAGGCGTATCTGAGTCCCAGGAGAGTAGCACCTGGGGTGA   2877
+
+89918862-8992   1831 CCAGA-AAGCTT---CATCCAC-AGCCTTGCAGCGGCT------------   1863
+                     .|..| ||||||   |||||.. ||||||.|.||.|||            
+124133821-124   2878 ACTAAGAAGCTTGCACATCCCTGAGCCTTTCTGCTGCTACAACCTGGGAT   2927
+
+89918862-8992   1864 -CCTGCAAAAG----------GAG--------------------------   1876
+                      ||||||..||          |||                          
+124133821-124   2928 TCCTGCAGCAGAGTCTATCTTGAGTCCCCACTGGTACTGAACACTTCTTT   2977
+
+89918862-8992   1877 ---------------------------------GTGAAAT-CCCTG--CC   1890
+                                                      ||||.|| ||||.  ||
+124133821-124   2978 GTCCTCCTCCTTGGGGTGGCCTCTCAGTCTGGAGTGAGATGCCCTCAACC   3027
+
+89918862-8992   1891 ------TCAGGCCAAGGGACCAGG-------------------TTTGCAG   1915
+                           |||||..|.||.||||||                   |..||..
+124133821-124   3028 ATCAAGTCAGGAAATGGCACCAGGCCAGGACCTAGCCACACTATCAGCTC   3077
+
+89918862-8992   1916 GAGCCCCCCTAG--------TGGTA--TGG-----GGCTGAGCCCTCCT-   1949
+                     .|||||..||.|        |||.|  |||     |||.|.|||..||| 
+124133821-124   3078 CAGCCCTGCTGGACTGAGATTGGAAGCTGGTTCCCGGCAGGGCCAGCCTT   3127
+
+89918862-8992   1950 -----GAGGGCCGGTTC------------TAAGGCTCAGAC---------   1973
+                          ||.|.|.||..|            |.||.||.|.||         
+124133821-124   3128 TGCTGGAAGACAGGACCATGAGTCAGCCTTTAGCCTGACACCATAGCTCC   3177
+
+89918862-8992   1974 -TGGGCAC-----------TGG----------------------------   1983
+                      ||||.||           |||                            
+124133821-124   3178 CTGGGGACACAGAGAGCTCTGGCCTGATGTCATCTGTCAGAGAAGCATCC   3227
+
+89918862-8992   1984 --GGCCTCAGCCTGCTT----------------TCCTG---------CAG   2006
+                       ||||||.|..|||||                |||.|         |||
+124133821-124   3228 CAGGCCTCTGGATGCTTCTAAGCATCTTCTCTGTCCAGACAAGGAGACAG   3277
+
+89918862-8992   2007 ---CAG----TCGCCCAAG----------------------------CAG   2021
+                        |||    ||.|||||.                            |||
+124133821-124   3278 AGACAGATGCTCACCCAATACTTCTTGAGCCAGGCCAGCTGGAACCACAG   3327
+
+89918862-8992   2022 ACAGCCC-----TGG--------------------------------CAA   2034
+                     |.||||.     |||                                |||
+124133821-124   3328 AAAGCCACATCATGGACACATTGTGGGGGAGGGGCATCTCTTGAGAACAA   3377
+
+89918862-8992   2035 ATGCCTGA-------------------------------CTCAGTGA---   2050
+                     |.|.|..|                               |||||.||   
+124133821-124   3378 AAGACCCATTTCTAAACTCGGCTAACTTGGATGCTTACCCTCAGAGAAAG   3427
+
+89918862-8992   2051 -------------------------------CCAGTGCCTG---------   2060
+                                                    ||.||||.||         
+124133821-124   3428 TTGTATGCGCAGCCGCTCTATCCAGCGTGCACCCGTGCGTGCAAACTGGA   3477
+
+89918862-8992   2061 ----------------------TGAGC--------------------ATG   2068
+                                           |.|||                    |||
+124133821-124   3478 CGAAGGCATCTGCAGGTGTTTTTAAGCTTTTTAGCGGCTCTTGTGAAATG   3527
+
+89918862-8992   2069 ---------GGGCCAGGAAAGTCTGGTAATA-------------------   2090
+                              ||.|||...||||.|||||.||                   
+124133821-124   3528 AATGTTTGTGGACCATTGAAGTGTGGTACTATTGTCTCAGATTCTTCCCG   3577
+
+89918862-8992   2091 AA--------TGTGACTCA----------------------GCATCAC--   2108
+                     ||        |||.|||.|                      |..||||  
+124133821-124   3578 AAGAATTTTCTGTCACTGAAATATCAAATAGTCCTCATAAGGTGTCACTG   3627
+
+89918862-8992   2109 --CC-------------------------------A   2111
+                       ||                               |
+124133821-124   3628 GTCCTAGATGAATATTAAATCAGTGTTGTCTGTGAA   3663
+
+
+#---------------------------------------
+#---------------------------------------
