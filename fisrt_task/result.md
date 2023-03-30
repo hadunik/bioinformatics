@@ -22,7 +22,7 @@ https://github.com/hadunik/bioinformatics/blob/2325806c46ad7b92145cee4d601c5bdca
 
 ### Mathcer
 
-https://github.com/hadunik/bioinformatics/blob/f39ac84faf8ad67fc541c01347d42a8a25838c87/fisrt_task/results/matcher_OCA2.txt#L22-L33
+https://github.com/hadunik/bioinformatics/blob/dbbc9b9b991b669c62a032050b8a04a059bd8242/fisrt_task/results/matcher_OCA2.txt#L22-L33
 
 ## Result
 
