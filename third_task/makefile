@@ -14,11 +14,11 @@ unzip_seq_res:
 
 unzip_gen:
 	gunzip $(GEN)
-	fastqc *.fastq
+	fastqc -t 10 *.fastq
 
 index_genome: unzip_gen unzip_seq_res
-	minimap2 -t 4 -d ref.mni *.fna
-	minimap2 -t 4 -a ref.mni *.fastq > alignment.sam
+	minimap2 -t 10 -d ref.mni *.fna
+	minimap2 -t 10 -a ref.mni *.fastq > alignment.sam
 
 run_script:index_genome
 	samtools flagstat alignment.sam > flagstat.txt
