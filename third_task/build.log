@@ -1,0 +1,46 @@
+gunzip SRR24502286.fastq.gz
+fastqc *.fastq
+Started analysis of SRR24502286.fastq
+Approx 5% complete for SRR24502286.fastq
+Approx 10% complete for SRR24502286.fastq
+Approx 20% complete for SRR24502286.fastq
+Approx 25% complete for SRR24502286.fastq
+Approx 35% complete for SRR24502286.fastq
+Approx 40% complete for SRR24502286.fastq
+Approx 50% complete for SRR24502286.fastq
+Approx 55% complete for SRR24502286.fastq
+Approx 65% complete for SRR24502286.fastq
+Approx 70% complete for SRR24502286.fastq
+Approx 75% complete for SRR24502286.fastq
+Approx 85% complete for SRR24502286.fastq
+Approx 90% complete for SRR24502286.fastq
+Analysis complete for SRR24502286.fastq
+tar -xf genome_assemblies_genome_fasta.tar
+rm genome_assemblies_genome_fasta.tar
+bash -c "cd ncbi-genom*; gunzip *.fna.gz; mv *.fna ../"
+minimap2 -t 4 -d ref.mni *.fna
+[M::mm_idx_gen::0.184*0.80] collected minimizers
+[M::mm_idx_gen::0.211*1.12] sorted minimizers
+[M::main::8.795*0.19] loaded/built the index for 1 target sequence(s)
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::8.805*0.19] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+[M::main] Version: 2.24-r1122
+[M::main] CMD: minimap2 -t 4 -d ref.mni GCF_000005845.2_ASM584v2_genomic.fna
+[M::main] Real time: 8.816 sec; CPU: 1.708 sec; Peak RSS: 0.051 GB
+minimap2 -t 4 -a ref.mni *.fastq > alignment.sam
+[M::main::7.066*0.20] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::7.076*0.20] mid_occ = 12
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::7.084*0.20] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+[M::worker_pipeline::21.138*1.30] mapped 13760 sequences
+[M::main] Version: 2.24-r1122
+[M::main] CMD: minimap2 -t 4 -a ref.mni SRR24502286.fastq
+[M::main] Real time: 21.147 sec; CPU: 27.563 sec; Peak RSS: 0.717 GB
+samtools flagstat alignment.sam > flagstat.txt
+./script.sh flagstat.txt
+Percent is 95.29%
+OK ✅✅✅
+samtools view -bS -o alignment.bam alignment.sam
+samtools sort -o alignment_sorted.bam alignment.bam
+freebayes -f *.fna alignment_sorted.bam > output.vcf
+index file GCF_000005845.2_ASM584v2_genomic.fna.fai not found, generating...
