@@ -6,7 +6,7 @@
     - Инструмент парного выравнивания: `mulPBA`
 
 2. **Полученные ноутбуки с предсказанной структурой**
-      - [ESMFold](ESMFold/ESMFold.ipynb)
+      - [ESMFold](ESMFold/ESMFold.ipynb) 
       - [OpenFold](OpenFold/OpenFold.ipynb)
    
 3. **Полученные предсказания структур в формате PDB**
